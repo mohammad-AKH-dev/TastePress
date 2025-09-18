@@ -72,7 +72,7 @@ function MainHeader() {
             با بهترین مواد اولیه غذاهایی سالم و خوشمزه براتون آماده می‌کنیم
             لحظه‌ای خوشمزه رو از دست ندید، همین حالا آنلاین رزرو کنید
           </p>
-        <div className="home-page__right-links flex flex-wrap-reverse sm:flex-nowrap sm:flex-row items-center justify-center lg:justify-end w-full xl:max-w-[494px] gap-y-[1.5rem] sm:gap-x-[2.5rem] xl:gap-x-[5rem] mt-8">
+        <div className="home-page__right-links flex flex-wrap-reverse sm:flex-nowrap sm:flex-row items-center justify-center lg:justify-end w-full xl:max-w-[494px] gap-y-[1.5rem] sm:gap-x-[2.5rem] xl:gap-x-[3rem] mt-8">
             <Button title="سفارش غذا" style="py-[12px] max-[450px]:px-2 block max-[400px]:min-w-full w-full mx-[4rem] sm:mx-0 sm:w-fit px-[2.8rem] hover:bg-transparent hover:text-red rounded-[5px] bg-red text-white"/>
             <Button title="مشاهده منو" style="py-[12px] max-[450px]:px-2 block max-[400px]:min-w-full w-full mx-[4rem] sm:mx-0 sm:w-fit px-[2.8rem] text-red hover:bg-red hover:text-white bg-transparent rounded-[5px]"/>
         </div>

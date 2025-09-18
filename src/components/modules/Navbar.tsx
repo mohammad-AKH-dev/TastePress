@@ -17,7 +17,7 @@ function Navbar() {
   const mainPath = useLocation();
 
   return (
-    <nav className="navbar bg-[#f3f3f3]">
+    <nav className={`navbar ${mainPath.pathname === '/' && 'bg-[#f3f3f3]'}`}>
       <ul
         className="menu-list flex items-center container mx-auto
        justify-center flex-row-reverse gap-[30px] text-black text-[18px] font-medium py-6 pt-10"
