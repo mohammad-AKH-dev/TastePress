@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../components/modules/Navbar'
 
 function AboutUs() {
   return (
-    <div>
-      
+    <div className='about-us__page container mx-auto'>
+       <Navbar/>
     </div>
   )
 }

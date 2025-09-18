@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../components/modules/Navbar'
 
 function Menu() {
   return (
-    <div>
-      Menu
+    <div className='menu-page'>
+       <Navbar/>
     </div>
   )
 }

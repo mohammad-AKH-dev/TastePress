@@ -1,12 +1,76 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: IranSans-Regular;
+  src: url(./fonts/IRANSansXFaNum-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: IranSans-Medium;
+  src: url(./fonts/IRANSansXFaNum-Medium.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: IranSans-DemiBold;
+  src: url(../public/fonts/IRANSansX-DemiBold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: IranSans-Semibold;
+  src: url(./fonts/IRANSansXFaNum-DemiBold.woff2);
+}
+
+@font-face {
+  font-family: IranSans-Bold;
+  src: url(./fonts/IRANSansXFaNum-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: IranSans-ExtraBold;
+  src: url(./fonts/IRANSansX-ExtraBold.woff2);
+  font-weight: 800;
+}
+
+
+@font-face {
+  font-family: IranSans-ExtraBlack;
+  src: url(./fonts/IRANSansXFaNum-ExtraBlack.woff2);
+  font-weight: 900;
+}
+
 html {
   scroll-behavior: smooth;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@theme {
+  --font-regular: IranSans-Regular;
+  --font-bold: IranSans-Bold;
+  --font-semibold: IranSans-Semibold;
+  --font-demiBold: IranSans-DemiBold;
+  --font-medium: IranSans-Medium;
+  --font-extraBlack: IranSans-ExtraBlack;
+  --font-extraBold: IranSans-ExtraBold;
+  --color-red: #E63946;
+  --color-black: #333333;
+  --color-orange: #F4A261;
+  --color-pink: rgba(242, 182, 186, 0.7);
+  --color-green: #014421;
+  --color-yellow: #B8860B;
+  --color-bg-yellow: #FFDE2B;
+  --color-dark-bg: #0D0D0D;
+  --color-section: #151515;
+  --color-dark-text: #E5E5E5;
+  --color-section-text: #2B2B2B;
+  --color-bg-light-section: rgba(242, 182, 186, 0.7);
+ 
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Invoice() {
   return (
-    <div>
+    <div className='invoice-page'>
       
     </div>
   )
