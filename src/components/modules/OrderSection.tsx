@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function OrderSection() {
   return (
-    <section className="order-section py-24 px-[3rem] sm:px-[6rem]">
+    <section className="order-section py-24 w-full px-[2rem] md:px-0 xl:px-[6rem]">
       <div className="order-section__content mx-auto container grid grid-cols-1 md:grid-cols-2 bg-[#F4CACD] rounded-[10px]">
         <div className="order-section__content-left overflow-hidden rounded-[10px]">
           <img
@@ -22,10 +22,10 @@ function OrderSection() {
             زمان درب منزل تحویل بگیر.
           </p>
           <div className="order-section__content-right__buttons max-[880px]:w-full max-[880px]:mb-4
-          max-[880px]:px-6 max-[880px]:gap-y-4 flex flex-wrap sm:flex-row max-md:flex-row max-[880px]:flex-col items-center justify-center  gap-x-9">
-              <Button title="سفارش غذا" href="/menu" style="max-[880px]:w-full bg-red text-white rounded-[7px] 
+          max-[880px]:px-6 max-[880px]:gap-y-4 flex flex-wrap md:flex-row flex-col items-center justify-center  gap-x-9">
+              <Button title="سفارش غذا" href="/menu" style="max-[410px]:w-full! max-md:w-[50%] bg-red text-white rounded-[7px] 
               py-[9px] px-[28px] lg:px-[33px] transition-all hover:bg-white hover:text-red"/>
-              <Button title="مشاهده منو" href="/menu" style="max-[880px]:w-full bg-white text-red rounded-[7px] 
+              <Button title="مشاهده منو" href="/menu" style="max-[410px]:w-full! max-md:w-[50%] bg-white text-red rounded-[7px] 
               py-[9px] px-[28px] lg:px-[33px] transition-all hover:bg-red hover:text-white"/>
           </div>
         </div>

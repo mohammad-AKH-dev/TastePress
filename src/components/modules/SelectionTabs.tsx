@@ -12,7 +12,8 @@ function SelectionTabs(props: SelectionTabsPropsType) {
   const [showDropDown, setShowDropDown] = useState(false);
   const [searchValue,setSearchValue] = useState('')
   return (
-    <div className="selection-tabs container flex flex-wrap-reverse gap-y-6 sm:flex-nowrap items-center justify-center gap-x-6 xl:justify-between mx-auto my-14 mb-16 xl:px-12">
+    <div className="selection-tabs container flex flex-wrap-reverse gap-y-6 sm:flex-nowrap items-center 
+   justify-center sm:justify-between px-[2rem] md:px-0 md:justify-center lg:justify-between gap-x-6 xl:justify-between mx-auto my-14 mb-16 xl:px-12">
       {/* tabs with 640px and more */}
       {/* left section */}
       <ul className="selection-tabs__left-section hidden md:flex flex-wrap justify-center lg:flex-nowrap gap-y-[18px] lg:gap-y-0 gap-x-[18px] items-center">
