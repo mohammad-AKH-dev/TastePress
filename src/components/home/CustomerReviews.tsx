@@ -25,7 +25,7 @@ function CustomerReviews() {
       id: 1,
       name: "رها حبیبی",
       comment:
-        "سفارش اولم بود، خیلی راحت ثبت شد. بسته‌بندی هم تمیز بود. فقط ای کاش دسرهای بیشتری تو منو داشتید",
+        "سفارش اولم بود، خیلی راحت ثبت شد. بسته‌بندی هم تمیز بود. فقط ای کاش دسرهای بیشتری تو منو داشتید.",
       profile: "/images/profiles/customer-1.jpg",
       img: "/images/reviews/review-1.jpg",
       style: 'justify-center sm:justify-start',
@@ -38,7 +38,7 @@ function CustomerReviews() {
       id: 2,
       name: "محمد ابراهیمی",
       comment:
-        "غذاها واقعاً تازه و خوشمزه بودن. تحویل هم خیلی سریع انجام شد و برخورد پرسنل عالی بود. قطعاً دوباره سفارش میدم",
+        "غذاها واقعاً تازه و خوشمزه بودن. تحویل هم خیلی سریع انجام شد و برخورد پرسنل عالی بود. قطعاً دوباره سفارش میدم.",
       profile: "/images/profiles/customer-2.jpg",
       img: "/images/reviews/review-2.jpg",
       style: 'justify-center sm:justify-end',
@@ -51,7 +51,7 @@ function CustomerReviews() {
       id: 3,
       name: "ملیکا نظری",
       comment:
-        "من و خانوادم دیشب غذا گرفتیم، هممون راضی بودیم. مخصوصاً بچه‌ها عاشق پاستاها شدند",
+        "من و خانوادم دیشب غذا گرفتیم، هممون راضی بودیم. مخصوصاً بچه‌ها عاشق پاستاها شدند.",
       profile: "/images/profiles/customer-3.jpg",
       img: "/images/reviews/review-3.jpg",
       style: 'justify-center sm:justify-start',

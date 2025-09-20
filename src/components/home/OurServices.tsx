@@ -24,7 +24,7 @@ function OurServices() {
     },
     {
       id: 3,
-      description: "استفاده از سبزیجات و مواد اولیه تازه و باکیفیت",
+      description: "استفاده از سبزیجات و مواد اولیه تازه و باکیفیت.",
       img: "/images/icons/organic-salad.svg",
       style: "from-[#F4A26126] to-[#F4A26108] border-[#F4A261] sm:-translate-x-[120px] min-[905px]:-translate-x-[80px] xl:-translate-x-[55px]  ml-0",
     },

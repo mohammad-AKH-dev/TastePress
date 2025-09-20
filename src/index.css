@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @font-face {
   font-family: IranSans-Regular;
   src: url(./fonts/IRANSansXFaNum-Regular.woff2);
@@ -14,7 +15,7 @@
 
 @font-face {
   font-family: IranSans-DemiBold;
-  src: url(../public/fonts/IRANSansX-DemiBold.woff2);
+  src: url(.fonts/IRANSansX-DemiBold.woff2);
   font-weight: 600;
 }
 @font-face {

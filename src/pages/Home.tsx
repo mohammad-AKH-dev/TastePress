@@ -12,11 +12,17 @@ function Home() {
   return (
     <div className='home-page '>
        <Navbar/>
+       {/* هدر اصلی */}
        <MainHeader/>
+       {/* سرویس های ما */}
        <OurServices/>
+       {/* پیشنهادهای ویژه */}
        <SpecialOffers/>
+       {/* منوی ویژه */}
        <SpecialMenu/>
+       {/* نظرات مشتریان */}
        <CustomerReviews/>
+       {/* فرم عضویت */}
        <MembershipForm/>
        <Footer/>
     </div>

@@ -13,7 +13,7 @@ function ReviewBox(props: CustomerReviewBoxPropsType) {
          <img src={profile} alt={name} className='w-[80px] h-[80px] absolute -top-13 
           left-8 rounded-full border border-[#DEDEDE] outline-8 outline-orange'/>
          <h5 className='review-customer__name font-bold text-[14px]'>{name}</h5>
-         <p className='review-customer__comment text-[12px] text-right mt-1'>{comment}</p>
+         <p dir='rtl' className='review-customer__comment text-[12px] text-right mt-1'>{comment}</p>
        </div>
        <div className={`review-box__images absolute  ${imgSize}`}>
           <img className={`main-img  object-cover absolute  z-1 border border-[#ffffff]

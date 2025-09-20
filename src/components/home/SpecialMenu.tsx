@@ -17,7 +17,7 @@ function SpecialMenu() {
           <h3 className="special-menu__right-section__title font-extraBold w-full text-[#000000] text-[29px] md:text-[32px]">
             یک تجربه ویژه در انتظار شماست
           </h3>
-          <p className="special-menu__right-section__subtitle max-w-[304px] lg:max-w-[430px] text-[15px] md:text-[16px] text-center sm:text-right">
+          <p dir="rtl" className="special-menu__right-section__subtitle max-w-[304px] lg:max-w-[430px] text-[15px] md:text-[16px] text-center sm:text-right">
             همین حالا میز خود را رزرو کنید و یک تجربه لذت‌بخش را در رستوران ما
             داشته باشید. پر کردن فرم تنها چند ثانیه طول می‌کشد!
           </p>

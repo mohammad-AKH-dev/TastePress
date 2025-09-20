@@ -62,15 +62,15 @@ function MainHeader() {
           />
         </div>
         {/* header right section */}
-        <div className="home-page__right-section text-center px-[4rem] sm:px-0 lg:text-right w-full lg:w-[50%] flex flex-col gap-y-6 
+        <div  className="home-page__right-section text-center px-[4rem] sm:px-0 lg:text-right w-full lg:w-[50%] flex flex-col gap-y-6 
         items-center translate-y-16 sm:translate-y-32">
           <h1 className="home-page__right-section-title max-w-[570px] xl:max-w-[500px] text-[35px]
            sm:text-[47px] xl:text-[54px] font-extraBlack lg:text-end ">
             تجربه ای تازه از طعم غذاهای ایرانی و فرنگی
           </h1>
-          <p className="home-page__right-section-paragraph lg:pl-[5rem] w-full lg:text-right max-w-[420px] lg:max-w-none xl:max-w-[494px] xl:text-[18px]">
+          <p dir="rtl" className="home-page__right-section-paragraph lg:pl-[5rem] w-full lg:text-right max-w-[420px] lg:max-w-none xl:max-w-[494px] xl:text-[18px]">
             با بهترین مواد اولیه غذاهایی سالم و خوشمزه براتون آماده می‌کنیم
-            لحظه‌ای خوشمزه رو از دست ندید، همین حالا آنلاین رزرو کنید
+            لحظه‌ای خوشمزه رو از دست ندید، همین حالا آنلاین رزرو کنید.
           </p>
         <div className="home-page__right-links flex flex-wrap-reverse sm:flex-nowrap sm:flex-row items-center justify-center lg:justify-end w-full xl:max-w-[494px] gap-y-[1.5rem] sm:gap-x-[2.5rem] xl:gap-x-[3rem] mt-8">
             <Button title="سفارش غذا" style="py-[12px] max-[450px]:px-2 block max-[400px]:min-w-full w-full mx-[4rem] sm:mx-0 sm:w-fit px-[2.8rem] hover:bg-transparent hover:text-red rounded-[5px] bg-red text-white"/>

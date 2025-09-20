@@ -9,9 +9,9 @@ function MembershipForm() {
         <h2 className="membership-form__title text-[32px] font-extraBold">
           عضو خانواده‌ی خوش‌طعم ما شوید
         </h2>
-        <p className="membership-form__paragraph pt-4 text-[#000000] mx-auto max-w-[418px]">
+        <p dir="rtl" className="membership-form__paragraph pt-4 text-[#000000] mx-auto max-w-[418px]">
           با عضویت در خبرنامه ما، همیشه از تازه‌ترین اخبار رستوران، معرفی منوی
-          جدید، پیشنهادها و تخفیف‌های ویژه مطلع شوید
+          جدید، پیشنهادها و تخفیف‌های ویژه مطلع شوید.
         </p>
         <form
           action={"#"}
