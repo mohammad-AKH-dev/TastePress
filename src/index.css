@@ -13,14 +13,11 @@
   font-weight: 500;
 }
 
+
 @font-face {
-  font-family: IranSans-DemiBold;
-  src: url(.fonts/IRANSansX-DemiBold.woff2);
-  font-weight: 600;
-}
-@font-face {
-  font-family: IranSans-Semibold;
+  font-family: IranSans-Demibold;
   src: url(./fonts/IRANSansXFaNum-DemiBold.woff2);
+  font-weight: 600;
 }
 
 @font-face {
@@ -74,4 +71,19 @@ body {
   --color-section-text: #2B2B2B;
   --color-bg-light-section: rgba(242, 182, 186, 0.7);
  
+}
+
+.activity-statistics__section {
+   background-image: url(/images/kitchen.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   background-position: center;
+   mix-blend-mode: multiply;
+   opacity: 80%;
+}
+
+@media all and (max-width:933px) {
+  .activity-statistics__section {
+    background-size: 100% 100% !important;
+  }
 }
