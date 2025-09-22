@@ -57,7 +57,7 @@ function ContactUsHeader() {
   }, [handleSubmit , isSubmitting])
 
   return (
-    <section className="contact-us__header-section overflow-x-hidden sm:overflow-x-visible">
+    <section className="contact-us__header-section overflow-x-hidden sm:overflow-x-visible px-[1rem]">
       <div className="contact-us__header-content container mx-auto px-[1rem] sm:px-0
        grid gap-y-12 md:gap-y-0 grid-cols-1 md:grid-cols-2 place-items-center">
         {/* left section */}

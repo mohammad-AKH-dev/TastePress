@@ -3,6 +3,8 @@ import Navbar from "../components/modules/Navbar";
 import Footer from "../components/modules/Footer";
 import PageHeader from "../components/modules/PageHeader";
 import ContactUsHeader from "../components/contact-us/ContactUsHeader";
+import OurBranches from "../components/contact-us/OurBranches";
+import Addressing from "../components/contact-us/Addressing";
 
 function ContactUs() {
   return (
@@ -14,6 +16,8 @@ function ContactUs() {
  ما در اسرع وقت پاسخگوی شما خواهیم بود."
       />
        <ContactUsHeader/>
+       <OurBranches/>
+       <Addressing/>
       <Footer />
     </div>
   );

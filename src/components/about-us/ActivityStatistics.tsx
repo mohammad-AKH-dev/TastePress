@@ -9,8 +9,6 @@ export type ActivityBoxPropsType = {
   order?: string;
 };
 
-console.log("hi 1");
-
 function ActivityStatistics() {
   const [activities, setActivities] = useState<ActivityBoxPropsType[]>([
     { id: 1, title: "تعداد غذاها", count: 120, additionalChar: "+" },
