@@ -87,3 +87,22 @@ body {
     background-size: 100% 100% !important;
   }
 }
+
+
+/* accordion styles */
+
+.rs-panel-header {
+  width: 100% !important;
+}
+
+.rs-panel-btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background-color: #fff !important;
+}
+
+.rs-panel-title {
+  max-width: fit-content !important;
+  text-align: right !important;
+}

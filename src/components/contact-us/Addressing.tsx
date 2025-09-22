@@ -2,7 +2,7 @@ import React from "react";
 
 function Addressing() {
   return (
-    <section  className="adressing-section my-9 py-9 bg-[#f2f2f2]">
+    <section  className="adressing-section mt-16 py-9 bg-[#f2f2f2]">
       <div
         className="adressing-section__content container mx-auto px-[1rem]"
       >

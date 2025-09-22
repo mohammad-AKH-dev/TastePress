@@ -47,8 +47,8 @@ function OurServices() {
         </div>
         {
           services.map((service) => (
-            <div className="service-box__wrapper ">
-                <ServiceBox {...service} key={service.id} />
+            <div key={service.id} className="service-box__wrapper ">
+                <ServiceBox {...service} />
             </div>
           ))
         }

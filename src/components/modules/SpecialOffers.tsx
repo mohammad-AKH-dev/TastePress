@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SectionHeader from "../modules/SectionHeader";
-import SpecialOfferBox from "../modules/SpecialOfferBox";
+import SectionHeader from "./SectionHeader";
+import SpecialOfferBox from "./SpecialOfferBox";
 
 export type SpecialOfferBoxPropsType = {
   id: number;

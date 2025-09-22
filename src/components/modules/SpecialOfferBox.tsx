@@ -1,5 +1,5 @@
 import React from "react";
-import type { SpecialOfferBoxPropsType } from "../home/SpecialOffers";
+import type { SpecialOfferBoxPropsType } from "./SpecialOffers";
 import Button from "./Button";
 
 function SpecialOfferBox(props: SpecialOfferBoxPropsType) {
@@ -17,7 +17,7 @@ function SpecialOfferBox(props: SpecialOfferBoxPropsType) {
       border-[#ffffff] xl:border-none rounded-[5px] xl:rounded-0 flex-col relative z-10 w-full lg:w-[50%]
        text-right lg:pr-6 py-6 lg:p-0 xl:p-10 xl:pt-12 bg-white h-full">
         <div className="triangle-topright max-[570px]:right-[4.8rem] max-[570px]:-top-[14rem]!
-         max-[700px]:-rotate-[90deg] max-[700px]:top-[-13rem]! max-[700px]:right-[3.8rem] max-sm:border-t-[304px] max-sm:-top-[19rem]
+         max-[700px]:-rotate-[90deg] max-[700px]:top-[-13rem]! max-[700px]:right-[5.8rem] max-sm:border-t-[304px] max-sm:-top-[19rem]
          max-md:top-[-17rem] max-md:border-t-[280px] max-[827px]:right-[7rem] max-[805px]:right-0
          max-[805px]:-top-[18.9rem] max-[805px]:rotate-[-180deg]
          rotate-[-90deg] top-[-13.9rem] right-[7.4rem]  rotate-y-[180deg] lg:rotate-x-0 lg:rotate-y-0

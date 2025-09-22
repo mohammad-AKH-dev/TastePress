@@ -28,11 +28,11 @@ function ClientCommentBox(props: ClientCommentsPropsType) {
       <p dir="rtl" className="client-comment__desc line-clamp-3 min-[585px]:line-clamp-4 max-[585px]:text-center mmax-[585px]:mx-auto 
        text-ellipsis text-[18px] min-[585px]:max-w-[241px] mt-[3rem] font-medium">{comment}</p>
       <div className="scores flex items-center justify-center gap-x-[1px] mt-[3rem] duration-300 transition-all min-[585px]:group-hover:pr-[5rem]">
-        {new Array(score).fill(0).map((item) => (
-          <img src="/images/comments/filled-star.png" />
+        {new Array(score).fill(0).map((item,index) => (
+          <img key={index} src="/images/comments/filled-star.png" />
         ))}
-        {new Array(5 - score).fill(0).map((item) => (
-          <img src="/images/comments/empty-star.png" />
+        {new Array(5 - score).fill(0).map((item,index) => (
+          <img key={index} src="/images/comments/empty-star.png" />
         ))}
       </div>
     </div>
